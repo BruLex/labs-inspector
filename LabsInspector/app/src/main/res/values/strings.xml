@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">LabsInspector</string>
+    <string name="bottom_navigation_all_labs">Все лабораторные</string>
+    <string name="bottom_navigation_subject">Предметы</string>
+    <string name="bottom_navigation_search">Поиск</string>
+    <string name="bottom_navigation_profile">Профиль</string>
 </resources>
