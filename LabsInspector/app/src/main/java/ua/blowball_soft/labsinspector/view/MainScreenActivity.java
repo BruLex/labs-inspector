@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 import ua.blowball_soft.labsinspector.R;
@@ -13,12 +14,13 @@ import ua.blowball_soft.labsinspector.R;
 public class MainScreenActivity extends FragmentActivity {
 
     private FragmentManager fragmentManager;
-    public Fragment allLabsFragment;
-    public Fragment subjectsFragment;
-    public Fragment searchFragment;
-    public Fragment profileFragment;
+    private Fragment allLabsFragment;
+    private Fragment subjectsFragment;
+    private Fragment searchFragment;
+    private Fragment profileFragment;
 
     private BottomNavigationView bnv;
+    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +43,8 @@ public class MainScreenActivity extends FragmentActivity {
                     .add(R.id.main_screen_container, allLabsFragment, AllLabsFragment.TAG)
                     .commit();
         }
+
+        initToolbar();
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener getBottomNavigationListener() {
@@ -80,5 +84,18 @@ public class MainScreenActivity extends FragmentActivity {
                 return true;
             }
         };
+    }
+
+    private void initToolbar() {
+        toolbar = findViewById(R.id.toolbar_main);
+        toolbar.setTitle(R.string.toolbar_title);
+        toolbar.setTitleTextColor(getResources().getColor(R.color.white));
+        toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                return false;
+            }
+        });
+        toolbar.inflateMenu(R.menu.toolbar_menu);
     }
 }

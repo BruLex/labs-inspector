@@ -4,4 +4,6 @@
     <string name="bottom_navigation_subject">Предметы</string>
     <string name="bottom_navigation_search">Поиск</string>
     <string name="bottom_navigation_profile">Профиль</string>
+    <string name="toolbar_title">LabsInspector Beta</string>
+    <string name="toolbar_menu_info">О нас</string>
 </resources>
