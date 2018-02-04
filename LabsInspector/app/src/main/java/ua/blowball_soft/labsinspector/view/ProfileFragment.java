@@ -10,12 +10,12 @@ import android.view.ViewGroup;
 import ua.blowball_soft.labsinspector.R;
 
 /**
- * Created by Nikita Kamak on 03.02.2018.
+ * Created by kamak on 04.02.2018.
  */
 
-public class SubjectsFragment extends Fragment {
+public class ProfileFragment extends Fragment{
 
-    public static final String TAG = "SubjectsFragmentTag";
+    public static final String TAG = "ProfileFragmentTag";
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -25,7 +25,7 @@ public class SubjectsFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_subjects, container, false);
+        View v = inflater.inflate(R.layout.fragment_profile, container, false);
         return v;
     }
 
