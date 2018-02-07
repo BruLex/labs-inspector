@@ -6,4 +6,7 @@
     <string name="bottom_navigation_profile">Профиль</string>
     <string name="toolbar_title">LabsInspector Beta</string>
     <string name="toolbar_menu_info">О нас</string>
+    <string name="slash">/</string>
+    <string name="average_rating">Средняя оценка</string>
+    <string name="sum_of_all_points">Сумма баллов</string>
 </resources>

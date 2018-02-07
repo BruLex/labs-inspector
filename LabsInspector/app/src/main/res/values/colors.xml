@@ -6,4 +6,5 @@
     <color name="colorAccent">#4312ae</color>
     <color name="colorLabsStatusBar">#fe9f00</color>
     <color name="colorLabsAppBar">#ffb200</color>
+    <color name="black">#000000</color>
 </resources>
