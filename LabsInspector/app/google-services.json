@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "639014565076",
+    "firebase_url": "https://labsinspector.firebaseio.com",
+    "project_id": "labsinspector",
+    "storage_bucket": "labsinspector.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639014565076:android:25920f32af135483",
+        "android_client_info": {
+          "package_name": "ua.blowball_soft.labsinspector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639014565076-9c8knbnabignunkec112e28e1a8njma4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ua.blowball_soft.labsinspector",
+            "certificate_hash": "91411b26a943bfc6fe29af7733b29f518004883d"
+          }
+        },
+        {
+          "client_id": "639014565076-jagjbbr512lq9na5f2s987ido6s43ksj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa9wVJrP_OQAqVVFaSZvvlwHm2WlPl5VU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639014565076-jagjbbr512lq9na5f2s987ido6s43ksj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

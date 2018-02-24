@@ -6,4 +6,10 @@
     <string name="bottom_navigation_profile">Профиль</string>
     <string name="toolbar_title">LabsInspector Beta</string>
     <string name="toolbar_menu_info">О нас</string>
+
+    <string name="reg_email_loadind">Запрос</string>
+
+    <string name="reg_email_vf_test">Гогогог</string>
+
+
 </resources>
