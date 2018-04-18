@@ -36,7 +36,7 @@ public class SubjectsFragment extends Fragment {
 
         RecyclerView rv = v.findViewById(R.id.subject_recycleView);
         rv.setLayoutManager(new LinearLayoutManager(getContext()));
-        rv.setAdapter(new LabsInspListAdapter(createMockLabsInspData()));
+        rv.setAdapter(new LabsInspListAdapter(createMockLabsInspData(), getContext()));
         return v;
     }
 
